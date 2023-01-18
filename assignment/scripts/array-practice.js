@@ -9,7 +9,7 @@ console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
 
-// test
+let favoriteFood = ['chicken wings', 'pizza', 'carbonara'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
