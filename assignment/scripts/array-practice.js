@@ -99,6 +99,7 @@ favoriteFood.push()
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
 
+favoriteFood.sort();
 favoriteFood.reverse();
 console.log(favoriteFood);
 
