@@ -94,19 +94,35 @@ console.log('The foods are now', favoriteFood);
 //      with another one of your favorite foods.
 //      Then log the updated array.
 
-favoriteFood.push()
+favoriteFood.splice(1, 0, 'reeses fast break');
+console.log('my new favorite foods!', favoriteFood);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
 
 favoriteFood.sort();
-favoriteFood.reverse();
-console.log(favoriteFood);
+console.log('My favorite foods, in reverse alphabetical order!', favoriteFood.reverse());
+
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
 
+console.log('These are my favorite!', favoriteFood.join(' and '));
+
+
+// Code from class on 1/18
+
+let foodText = '';
+
+for (let i = 0; i < favoriteFood.length; i += 1) {
+    if (i === favoriteFood.length -1) {
+        foodText += favoriteFood[i];
+    } else {
+        foodText += `${favoriteFood[i]} and `;
+    }
+}
+console.log(foodText);
 
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
@@ -114,3 +130,4 @@ console.log(favoriteFood);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
