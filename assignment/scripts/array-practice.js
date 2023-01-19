@@ -131,3 +131,5 @@ console.log(foodText);
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
 
+let combinedArray = animalArray.concat(favoriteFood);
+console.log('The combined array is:', combinedArray);
